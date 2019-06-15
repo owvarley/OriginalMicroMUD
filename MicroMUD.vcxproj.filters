@@ -13,10 +13,106 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\GameWorlds">
+      <UniqueIdentifier>{b0cc5a2b-f0b1-403f-a907-790ac45374af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameWorlds">
+      <UniqueIdentifier>{4d4deea2-c8c5-4a98-b247-cdb9ab201e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Areas">
+      <UniqueIdentifier>{6b8a6184-d204-4621-afb7-07b02334c271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Libraries">
+      <UniqueIdentifier>{3605fc56-106b-4aa1-b196-db43f31cde04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Areas">
+      <UniqueIdentifier>{f4a9772c-02ae-48ea-826a-b4c4f5756510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Libraries">
+      <UniqueIdentifier>{ffebe3ad-5c7d-4120-8e74-839212471dd0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Affect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Combat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MSDP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Variable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SqliteDbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorlds\Shinobi.h">
+      <Filter>Header Files\GameWorlds</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorlds\ShinobiCombat.h">
+      <Filter>Header Files\GameWorlds</Filter>
+    </ClInclude>
+    <ClInclude Include="Areas\Area.h">
+      <Filter>Header Files\Areas</Filter>
+    </ClInclude>
+    <ClInclude Include="Areas\Exit.h">
+      <Filter>Header Files\Areas</Filter>
+    </ClInclude>
+    <ClInclude Include="Areas\Item.h">
+      <Filter>Header Files\Areas</Filter>
+    </ClInclude>
+    <ClInclude Include="Areas\Reset.h">
+      <Filter>Header Files\Areas</Filter>
+    </ClInclude>
+    <ClInclude Include="Areas\Room.h">
+      <Filter>Header Files\Areas</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\CppSQLite3.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MTRandint32.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\sqlite3.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\tinyxml2.h">
+      <Filter>Header Files\Libraries</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -25,6 +121,78 @@
     </ClCompile>
     <ClCompile Include="MicroMUD.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Affect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Combat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MSDP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SqliteDbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorlds\Shinobi.cpp">
+      <Filter>Source Files\GameWorlds</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorlds\ShinobiCombat.cpp">
+      <Filter>Source Files\GameWorlds</Filter>
+    </ClCompile>
+    <ClCompile Include="Areas\Area.cpp">
+      <Filter>Source Files\Areas</Filter>
+    </ClCompile>
+    <ClCompile Include="Areas\Exit.cpp">
+      <Filter>Source Files\Areas</Filter>
+    </ClCompile>
+    <ClCompile Include="Areas\Item.cpp">
+      <Filter>Source Files\Areas</Filter>
+    </ClCompile>
+    <ClCompile Include="Areas\Reset.cpp">
+      <Filter>Source Files\Areas</Filter>
+    </ClCompile>
+    <ClCompile Include="Areas\Room.cpp">
+      <Filter>Source Files\Areas</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\CppSQLite3.cpp">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MTRandint32.cpp">
+      <Filter>Source Files\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\tinyxml2.cpp">
+      <Filter>Source Files\Libraries</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

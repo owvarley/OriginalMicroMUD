@@ -151,16 +151,66 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Account.h" />
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="Affect.h" />
+    <ClInclude Include="Areas\Area.h" />
+    <ClInclude Include="Areas\Exit.h" />
+    <ClInclude Include="Areas\Item.h" />
+    <ClInclude Include="Areas\Reset.h" />
+    <ClInclude Include="Areas\Room.h" />
+    <ClInclude Include="Combat.h" />
+    <ClInclude Include="GameServer.h" />
+    <ClInclude Include="GameSocket.h" />
+    <ClInclude Include="GameWorld.h" />
+    <ClInclude Include="GameWorlds\Shinobi.h" />
+    <ClInclude Include="GameWorlds\ShinobiCombat.h" />
+    <ClInclude Include="Libraries\CppSQLite3.h" />
+    <ClInclude Include="Libraries\MTRandint32.h" />
+    <ClInclude Include="Libraries\sqlite3.h" />
+    <ClInclude Include="Libraries\tinyxml2.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="MSDP.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Protocol.h" />
+    <ClInclude Include="Socket.h" />
+    <ClInclude Include="SocketException.h" />
+    <ClInclude Include="SqliteDbase.h" />
+    <ClInclude Include="Variable.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Account.cpp" />
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="Affect.cpp" />
+    <ClCompile Include="Areas\Area.cpp" />
+    <ClCompile Include="Areas\Exit.cpp" />
+    <ClCompile Include="Areas\Item.cpp" />
+    <ClCompile Include="Areas\Reset.cpp" />
+    <ClCompile Include="Areas\Room.cpp" />
+    <ClCompile Include="Combat.cpp" />
+    <ClCompile Include="GameServer.cpp" />
+    <ClCompile Include="GameSocket.cpp" />
+    <ClCompile Include="GameWorld.cpp" />
+    <ClCompile Include="GameWorlds\Shinobi.cpp" />
+    <ClCompile Include="GameWorlds\ShinobiCombat.cpp" />
+    <ClCompile Include="Libraries\CppSQLite3.cpp" />
+    <ClCompile Include="Libraries\MTRandint32.cpp" />
+    <ClCompile Include="Libraries\tinyxml2.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="MicroMUD.cpp" />
+    <ClCompile Include="MSDP.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Protocol.cpp" />
+    <ClCompile Include="Socket.cpp" />
+    <ClCompile Include="SqliteDbase.cpp" />
+    <ClCompile Include="Variable.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
