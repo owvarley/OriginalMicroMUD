@@ -1,0 +1,13 @@
+<GameWorld>
+	<name>Shinobi</name>
+	<desc>Shinobi - Kill or Be Killed!</desc>
+	<wearlocs>
+		<wearloc></wearloc>
+	</wearlocs>
+	<races>
+		<race></race>
+	</races>
+	<attributes>
+		<attribute></attribute>
+	</attributes>
+</GameWorld>
